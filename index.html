@@ -70,9 +70,11 @@
         </div>
 
         <div class="hero-visual reveal reveal-delay">
-          <div class="device-frame device-phone has-shot">
-            <figure class="screenshot-placeholder"><img src="/assets/screenshots/home.png" alt="App home" loading="lazy" /></figure>
+          <div class="device-frame device-phone has-quiz">
+            <div class="demo-quiz" id="demo-quiz" data-question='{"passage": "Liebe Musikfreunde! Am Samstag findet unser jährliches Musikfest im Stadtpark statt. Der Eintritt beträgt für Erwachsene 5 Euro. Kinder unter 12 Jahren haben freien Eintritt. Bitte beachten Sie: Falls es stark regnet, findet die Veranstaltung in der Sporthalle der Schule statt. Wir freuen uns auf Ihren Besuch!", "question": "Was kann man über das Musikfest am Samstag erfahren?", "options": [{"text": "Das Fest findet bei jedem Wetter draußen statt."}, {"text": "Der Eintritt zum Konzert kostet für Kinder nichts."}, {"text": "Man muss die Tickets vorher im Internet reservieren."}], "correct": 1, "explanationCorrect": "Im Text steht, dass Kinder unter 12 Jahren keinen Eintritt bezahlen müssen. Das bedeutet, der Eintritt ist für sie kostenlos.", "explanationWrong": "Im Text steht, dass Kinder unter 12 Jahren freien Eintritt haben. Außerdem findet das Fest bei starkem Regen in der Sporthalle statt, nicht draußen."}'>
+            </div>
           </div>
+          <p class="demo-quiz__hint">Try a sample question — tap an answer.</p>
         </div>
       </div>
     </section>
@@ -380,5 +382,6 @@
   </footer>
 
   <script src="/js/main.js"></script>
+  <script src="/js/demo-quiz.js"></script>
 </body>
 </html>
